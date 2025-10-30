@@ -1,3 +1,4 @@
+'use client';
 import styles from "./CSS/goalsBoard.module.css"
 
 export default function GoalsBoard() {
