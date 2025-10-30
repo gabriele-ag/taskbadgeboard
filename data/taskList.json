@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Completa 3 coding snack",
+    "description": "Svolgi almeno 3 esercizi brevi su JavaScript o TypeScript.",
+    "completed": false,
+    "progress": 0
+  },
+  {
+    "id": 2,
+    "title": "Studia TypeScript su YouTube",
+    "description": "Guarda una playlist introduttiva e prendi appunti.",
+    "completed": false,
+    "progress": 30
+  },
+  {
+    "id": 3,
+    "title": "Rivedi il profilo LinkedIn",
+    "description": "Aggiorna bio, esperienze e link portfolio.",
+    "completed": false,
+    "progress": 5
+  },
+  {
+    "id": 4,
+    "title": "Contribuisci a un progetto open source",
+    "description": "Trova un issue beginner-friendly e apri una PR.",
+    "completed": false,
+    "progress": 0
+  },
+  {
+    "id": 5,
+    "title": "Impara Zustand per la gestione dello stato",
+    "description": "Crea un mini progetto con Zustand e React.",
+    "completed": false,
+    "progress": 0
+  }
+]

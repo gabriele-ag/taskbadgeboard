@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "First Goal",
+    "description": "Hai aggiunto il tuo primo obiettivo!",
+    "icon": "⭐",
+    "unlocked": false
+  },
+  {
+    "id": 2,
+    "name": "Three Goals",
+    "description": "Hai completato almeno 3 obiettivi.",
+    "icon": "🎯",
+    "unlocked": false
+  },
+  {
+    "id": 3,
+    "name": "Hard Worker",
+    "description": "Hai raggiunto almeno l'80% di progresso su un obiettivo.",
+    "icon": "💪",
+    "unlocked": false
+  },
+  {
+    "id": 4,
+    "name": "Completionist",
+    "description": "Hai completato tutti gli obiettivi attivi.",
+    "icon": "🏆",
+    "unlocked": false
+  },
+  {
+    "id": 5,
+    "name": "Streak Maintainer",
+    "description": "Hai completato almeno un obiettivo ogni giorno per 3 giorni consecutivi.",
+    "icon": "🔥",
+    "unlocked": false
+  },
+  {
+    "id": 6,
+    "name": "Customizer",
+    "description": "Hai modificato un obiettivo esistente.",
+    "icon": "🛠️",
+    "unlocked": false
+  },
+  {
+    "id": 7,
+    "name": "Declutter Hero",
+    "description": "Hai eliminato almeno 5 obiettivi completati.",
+    "icon": "🧹",
+    "unlocked": false
+  }
+]
