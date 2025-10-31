@@ -13,13 +13,15 @@ export default function Dashboard() {
         <section>
 
             <h1>BadgeBoard</h1>
-            {task.map((curTask) => (
-                <div key={curTask.id}>
-                    <p>{curTask.title}</p>
-                </div>
-            ))}
 
-            <GoalsBoard/>
+            <div className={styles.boxGoalsBoard}>
+                {task.map((curTask) => (
+                <GoalsBoard
+                title={curTask.title}
+                description={curTask.description}
+                />
+                ))}
+            </div>
 
         </section>
     )
