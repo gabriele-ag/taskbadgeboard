@@ -2,111 +2,111 @@
   {
     "id": 1,
     "title": "Completa 3 coding snack",
-    "description": "Svolgi almeno 3 esercizi brevi su JavaScript o TypeScript.",
+    "description": "Svolgi almeno 3 esercizi brevi su JavaScript o TypeScript per migliorare la tua logica, sintassi e capacità di risoluzione dei problemi. Questi esercizi ti aiutano a consolidare le basi e a sviluppare agilità mentale nel coding quotidiano.",
     "completed": false,
     "progress": 0,
     "detail": "Puoi usare piattaforme come Codewars, Frontend Mentor o esercizi su GitHub.",
     "objective": "Allenare la logica e la sintassi con esercizi mirati.",
     "resources": ["https://www.codewars.com", "https://www.frontendmentor.io"],
-    "tips": "Dedica 15 minuti al giorno, anche solo per un singolo esercizio."
+    "tips": "Dedica 15 minuti al giorno, anche solo per un singolo esercizio. Non puntare alla perfezione, ma alla costanza: ogni piccolo passo ti avvicina alla padronanza."
   },
   {
     "id": 2,
     "title": "Studia TypeScript su YouTube",
-    "description": "Guarda una playlist introduttiva e prendi appunti.",
+    "description": "Guarda una playlist introduttiva su TypeScript per comprendere meglio i tipi, le interfacce, le funzioni e l'integrazione con React. Questo ti permetterà di scrivere codice più sicuro, leggibile e scalabile.",
     "completed": false,
     "progress": 30,
     "detail": "Playlist consigliata: 'TypeScript Crash Course' di Traversy Media.",
     "objective": "Comprendere i tipi, le interfacce e l'integrazione con React.",
     "resources": ["https://www.youtube.com/watch?v=BCg4U1FzODs"],
-    "tips": "Prendi appunti con Notion e prova subito i concetti in un progetto."
+    "tips": "Prendi appunti con Notion e prova subito i concetti in un progetto reale. Non limitarti a guardare: metti in pratica ogni concetto appena lo apprendi."
   },
   {
     "id": 3,
     "title": "Rivedi il profilo LinkedIn",
-    "description": "Aggiorna bio, esperienze e link portfolio.",
+    "description": "Aggiorna la tua bio, esperienze lavorative, competenze tecniche e link al portfolio. Un profilo ben curato è il tuo biglietto da visita per recruiter, collaboratori e opportunità professionali.",
     "completed": false,
     "progress": 5,
     "detail": "Controlla headline, esperienze, competenze e link al portfolio.",
     "objective": "Rendere il profilo più professionale e visibile ai recruiter.",
     "resources": ["https://www.linkedin.com"],
-    "tips": "Usa parole chiave tecniche e aggiorna la foto profilo."
+    "tips": "Usa parole chiave tecniche, una foto professionale e una descrizione che racconti chi sei e cosa cerchi. Inserisci progetti concreti e risultati misurabili."
   },
   {
     "id": 4,
     "title": "Contribuisci a un progetto open source",
-    "description": "Trova un issue beginner-friendly e apri una PR.",
+    "description": "Trova un progetto su GitHub con issue beginner-friendly e contribuisci con una pull request. È un ottimo modo per imparare, collaborare e lasciare il tuo segno nella community.",
     "completed": false,
     "progress": 0,
     "detail": "Cerca su GitHub con label 'good first issue'.",
     "objective": "Imparare a collaborare e usare Git in contesto reale.",
     "resources": ["https://github.com/search?q=label%3A%22good+first+issue%22"],
-    "tips": "Leggi bene le regole del repository prima di aprire una PR."
+    "tips": "Leggi bene le regole del repository, comunica con i maintainer e documenta il tuo contributo. Anche una piccola correzione può avere grande impatto."
   },
   {
     "id": 5,
     "title": "Impara Zustand per la gestione dello stato",
-    "description": "Crea un mini progetto con Zustand e React.",
+    "description": "Crea un mini progetto con Zustand e React per capire come gestire lo stato in modo semplice, scalabile e leggibile. È una valida alternativa a Redux e Context API.",
     "completed": false,
     "progress": 0,
     "detail": "Crea una todo list o un contatore con Zustand.",
     "objective": "Capire come gestire lo stato in React senza Redux.",
     "resources": ["https://docs.pmnd.rs/zustand"],
-    "tips": "Confronta Zustand con useContext e Redux per capirne i vantaggi."
+    "tips": "Confronta Zustand con useContext e Redux per capirne i vantaggi. Prova a modularizzare lo stato e a usarlo in componenti diversi per testarne la flessibilità."
   },
   {
     "id": 6,
     "title": "Scrivi un articolo tecnico su Medium",
-    "description": "Scegli un argomento che conosci bene (es. React, TypeScript, Zustand) e scrivi un articolo completo con esempi, codice e riflessioni personali. L'obiettivo è condividere conoscenza e migliorare la tua comunicazione tecnica.",
+    "description": "Scegli un argomento che conosci bene (es. React, TypeScript, Zustand) e scrivi un articolo completo con esempi, codice e riflessioni personali. Condividere conoscenza ti aiuta a consolidarla e a costruire autorevolezza.",
     "completed": false,
     "progress": 0,
     "detail": "Puoi usare dev.to o Medium. Inserisci anche il link nel tuo portfolio.",
     "objective": "Condividere competenze e migliorare la comunicazione tecnica.",
     "resources": ["https://medium.com", "https://dev.to"],
-    "tips": "Scrivi come se spiegassi a un collega junior. Usa esempi pratici."
+    "tips": "Scrivi come se spiegassi a un collega junior. Usa esempi pratici, codice ben formattato e una struttura chiara. Non temere di essere semplice: la chiarezza è potenza."
   },
   {
     "id": 7,
     "title": "Crea una landing page personale",
-    "description": "Progetta e sviluppa una pagina web che presenti chi sei, cosa fai, i tuoi progetti e i tuoi contatti. Usa uno stile coerente con il tuo brand personale e rendila responsive. Puoi usare Next.js o Vite.",
+    "description": "Progetta e sviluppa una pagina web che presenti chi sei, cosa fai, i tuoi progetti e i tuoi contatti. Deve essere responsive, coerente con il tuo brand e facile da navigare.",
     "completed": false,
     "progress": 0,
     "detail": "Inserisci link a GitHub, LinkedIn e portfolio. Puoi usare Netlify o Vercel per deploy.",
     "objective": "Mostrare il tuo brand personale e facilitare contatti.",
     "resources": ["https://vercel.com", "https://netlify.com"],
-    "tips": "Mantieni il design semplice e mobile-friendly. Usa colori coerenti."
+    "tips": "Mantieni il design semplice e mobile-friendly. Usa colori coerenti, font leggibili e CTA chiare. Inserisci una sezione 'Chi sono' e un modulo di contatto."
   },
   {
     "id": 8,
     "title": "Leggi un capitolo di 'Clean Code'",
-    "description": "Dedica tempo alla lettura di uno dei capitoli del libro 'Clean Code' di Robert C. Martin. Prendi appunti su concetti chiave come naming, refactoring, test e responsabilità delle funzioni.",
+    "description": "Dedica tempo alla lettura di uno dei capitoli del libro 'Clean Code' di Robert C. Martin. Imparerai principi fondamentali per scrivere codice pulito, leggibile e manutenibile.",
     "completed": false,
     "progress": 0,
     "detail": "Capitolo consigliato: 'Functions'. Puoi usare Notion per prendere appunti.",
     "objective": "Migliorare la qualità del codice e la leggibilità.",
     "resources": ["https://www.goodreads.com/book/show/3735293-clean-code"],
-    "tips": "Applica subito i concetti letti nel tuo codice."
+    "tips": "Applica subito i concetti letti nel tuo codice. Rivedi una funzione che hai scritto e prova a migliorarla secondo i principi del libro. Scrivere codice pulito è un atto di rispetto verso chi lo leggerà."
   },
   {
     "id": 9,
     "title": "Crea un componente riutilizzabile in React",
-    "description": "Sviluppa un componente UI che possa essere riutilizzato in più progetti. Ad esempio: una card, un modal, un tooltip o un sistema di notifica. Documenta bene le props e il comportamento.",
+    "description": "Sviluppa un componente UI che possa essere riutilizzato in più progetti. Documenta bene le props, il comportamento e rendilo flessibile. È un ottimo esercizio di astrazione e design.",
     "completed": false,
     "progress": 0,
     "detail": "Salvalo in una libreria personale o in uno snippet condivisibile.",
     "objective": "Costruire una base solida per progetti futuri.",
     "resources": ["https://storybook.js.org", "https://react.dev"],
-    "tips": "Documenta bene le props e usa TypeScript per tipizzare."
+    "tips": "Documenta bene le props e usa TypeScript per tipizzare. Prova a renderlo personalizzabile con slot o varianti. Un buon componente è semplice da usare e difficile da rompere."
   },
   {
     "id": 10,
     "title": "Partecipa a una live coding session",
-    "description": "Trova una live su Twitch o YouTube dove si sviluppa in tempo reale. Segui il flusso, prendi ispirazione e annota tecniche o strumenti che non conoscevi. Può essere anche una registrazione.",
+    "description": "Trova una live su Twitch o YouTube dove si sviluppa in tempo reale. Segui il flusso, prendi ispirazione e annota tecniche o strumenti che non conoscevi. È un modo coinvolgente per imparare da altri sviluppatori.",
     "completed": false,
     "progress": 0,
     "detail": "Playlist consigliata: 'ThePrimeagen' su YouTube o 'Coding Garden' su Twitch.",
     "objective": "Scoprire nuovi approcci e strumenti reali.",
     "resources": ["https://www.twitch.tv/theprimeagen", "https://www.youtube.com/c/CodingGarden"],
-    "tips": "Prendi nota di tool, shortcut e workflow usati dal creator."
+    "tips": "Prendi nota di tool, shortcut e workflow usati dal creator. Non limitarti a guardare: prova a replicare ciò che vedi e ad adattarlo ai tuoi progetti."
   }
 ]

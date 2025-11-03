@@ -45,9 +45,13 @@ export default function Dashboard() {
     return (
         <section className={styles.sectionTaskBadge}>
 
-
-            {/* Goals */}
+            {task.length === 0 ? (
+                <p className={styles.loading}>Caricamento...</p>
+            ): (
             <div className={styles.container}>
+
+                    {/* Goals */}
+                    
                     <p className={styles.mgBot30}>* Clicca sulle task per saperne i dettagli</p>
                     <div className={styles.flexGoalsBoard}>
                         <div className={styles.boxGoalsBoard}>                            
@@ -66,6 +70,7 @@ export default function Dashboard() {
                         </div>
                         
                         {/* Badge */}
+
                         <div className={styles.boxGoalsBoard}>
                             <h2 className={styles.mgBot30}>Achievement</h2>
                             {badge.map((curBadge) => (
@@ -80,6 +85,7 @@ export default function Dashboard() {
                         </div>
                     </div>
             </div>
+            )}
 
 
         </section>

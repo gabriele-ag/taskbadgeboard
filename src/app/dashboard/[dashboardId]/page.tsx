@@ -40,7 +40,7 @@ export default async function DashboardDetail({
                 </div>
 
                 <div className={styles.tips}>
-                <h3>Consigli</h3>
+                <h3 className={styles.detailSubTitle}>Consigli</h3>
                     <p>{task.tips}</p>
                 </div>
 
