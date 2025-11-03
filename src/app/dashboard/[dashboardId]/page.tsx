@@ -4,6 +4,7 @@ import { Task } from '@/app/api/taskRoutes/model/task';
 import styles from './CSS/dashboardid.module.css'
 
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 
 export default async function DashboardDetail({
     params,
@@ -13,7 +14,9 @@ export default async function DashboardDetail({
     const {dashboardId} = await params
     const task: Task | undefined = taskList.find((curTask) => curTask.id === parseInt(dashboardId))
 
-    if (!task) return <div>Task non trovata</div>;
+    if (!task) {
+        notFound()
+    };
 
     return (
         <section className={styles.sectionDetail}>

@@ -1,4 +1,4 @@
-# Badge Task Board
+# Task Badge Board
 
 Progetto d'esercitazione, per imparare e testare la tecnologia Next.js.
 
