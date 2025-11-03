@@ -8,6 +8,42 @@
     padding: 0;
 }
 
+.ulDetail {
+    list-style: none;
+    margin-top: 15px;
+}
+
 .boxDetail {
     color: white;
+}
+
+.detailTitle {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.detailSubTitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.description,
+.detail,
+.tips {
+    margin-bottom: 60px;
+}
+
+.urlLink {
+    text-decoration: underline;
+}
+
+.urlLink:hover {
+    color: aquamarine;
+}
+
+.backButton {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
