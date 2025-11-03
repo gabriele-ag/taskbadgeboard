@@ -1,16 +1,14 @@
 .badgeCard {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 10px;
   border-radius: 8px;
   border: 2px solid transparent;
   transition: all 0.3s ease;
-  background-color: #f9f9f9;
+  margin-bottom: 20px;
 }
 
 .unlocked {
-  border-color: #4ade80;
   opacity: 1;
 }
 
@@ -19,7 +17,7 @@
 }
 
 .icon {
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .content {
@@ -28,12 +26,10 @@
 }
 
 .name {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.25rem;
+  font-size: 16px;
+  margin-bottom: 5px;
 }
 
 .description {
-  font-size: 0.875rem;
-  color: #555;
+  font-size: 13px;
 }

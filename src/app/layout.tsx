@@ -29,11 +29,15 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <header>
           <div className="navbar">
+          <div>
+            <p className="site-logo">📋​</p>
+          </div>
             <Link href={"/"}>Home</Link>
             <Link href={"/dashboard"}>Dashboard</Link>
           </div>
         </header>
         {children}
+        <footer>Created by Gabriele Ardizzone</footer>
       </body>
     </html>
   );

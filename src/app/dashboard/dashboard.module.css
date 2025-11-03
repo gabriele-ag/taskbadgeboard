@@ -1,5 +1,6 @@
 .sectionTaskBadge {
-    padding-top: 60px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .titleDashboard {
@@ -7,20 +8,25 @@
     margin-bottom: 100px;
 }
 
-.boxTaskBadge {
-    display: flex;
-    justify-content: center;
-    align-items: ;
-    gap: 40px;
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 0;
 }
 
-.boxTask {
-    padding: 15px;
+.flexGoalsBoard {
+    display: flex;
+    align-items: baseline;
+    gap: 50px;
 }
 
 .boxGoalsBoard {
-    max-width: 50%;
+    background-color: aliceblue;
     padding: 30px;
-    border: 1px solid black;
-    border-radius: 40px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.mgBot30 {
+    margin-bottom: 30px;
 }

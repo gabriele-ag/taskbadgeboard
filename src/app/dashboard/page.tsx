@@ -16,12 +16,24 @@ export default function Dashboard() {
             curTask.id === id ? { ...curTask, completed: !curTask.completed } : curTask
         )
         setTask(updatedTasks)
+        const totalGoals = updatedTasks.length
         const completedCount = updatedTasks.filter((curTask) => curTask.completed).length
+        const completedGoalIds = updatedTasks.filter((curTask) => curTask.completed).map((curElem) => curElem.id)
 
         const updatedBadges = badge.map((curBadge) => {
-            if(curBadge.id === 1 && completedCount >= 1) return {...curBadge, unlocked: true}
-            if(curBadge.id === 2 && completedCount >= 3) return {...curBadge, unlocked: true}
-            if(curBadge.id === 6 && completedCount >= 5) return {...curBadge, unlocked: true}
+            if (curBadge.id === 1 && totalGoals >= 1) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 2 && completedCount >= 3) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 3 && completedCount === totalGoals && totalGoals > 0) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 4 && completedGoalIds.includes(4)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 5 && completedGoalIds.includes(5)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 6 && completedCount >= 5) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 7 && completedGoalIds.includes(6)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 8 && completedGoalIds.includes(9)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 9 && completedGoalIds.includes(3)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 10 && completedGoalIds.includes(8)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 11 && completedGoalIds.includes(2)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 12 && completedGoalIds.includes(5)) return { ...curBadge, unlocked: true };
+            if (curBadge.id === 13 && completedGoalIds.includes(1)) return { ...curBadge, unlocked: true };
             return curBadge
         })
 
@@ -36,23 +48,26 @@ export default function Dashboard() {
 
             {/* Goals */}
             <div className={styles.container}>
-                    <div className={styles.boxTaskBadge}>
-                        <div className={styles.boxGoalsBoard}>
-                            
+                    <p className={styles.mgBot30}>* Clicca sulle task per saperne i dettagli</p>
+                    <div className={styles.flexGoalsBoard}>
+                        <div className={styles.boxGoalsBoard}>                            
+                            <h2 className={styles.mgBot30}>Task</h2>                           
                             {task.map((curTask) => (
-
                             <GoalsBoard
                             key={curTask.id}
+                            id={curTask.id}
                             title={curTask.title}
                             completed={curTask.completed}
                             onToggle={() => handleToggle(curTask.id)}
                             />
 
                             ))}
+                            
                         </div>
                         
                         {/* Badge */}
                         <div className={styles.boxGoalsBoard}>
+                            <h2 className={styles.mgBot30}>Achievement</h2>
                             {badge.map((curBadge) => (
                                 <BadgeBoard
                                 key={curBadge.id}

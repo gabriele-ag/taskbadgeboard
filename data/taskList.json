@@ -4,35 +4,55 @@
     "title": "Completa 3 coding snack",
     "description": "Svolgi almeno 3 esercizi brevi su JavaScript o TypeScript.",
     "completed": false,
-    "progress": 0
+    "progress": 0,
+    "detail": "Puoi usare piattaforme come Codewars, Frontend Mentor o esercizi su GitHub.",
+    "objective": "Allenare la logica e la sintassi con esercizi mirati.",
+    "resources": ["https://www.codewars.com", "https://www.frontendmentor.io"],
+    "tips": "Dedica 15 minuti al giorno, anche solo per un singolo esercizio."
   },
   {
     "id": 2,
     "title": "Studia TypeScript su YouTube",
     "description": "Guarda una playlist introduttiva e prendi appunti.",
     "completed": false,
-    "progress": 30
+    "progress": 30,
+    "detail": "Playlist consigliata: 'TypeScript Crash Course' di Traversy Media.",
+    "objective": "Comprendere i tipi, le interfacce e l'integrazione con React.",
+    "resources": ["https://www.youtube.com/watch?v=BCg4U1FzODs"],
+    "tips": "Prendi appunti con Notion e prova subito i concetti in un progetto."
   },
   {
     "id": 3,
     "title": "Rivedi il profilo LinkedIn",
     "description": "Aggiorna bio, esperienze e link portfolio.",
     "completed": false,
-    "progress": 5
+    "progress": 5,
+    "detail": "Controlla headline, esperienze, competenze e link al portfolio.",
+    "objective": "Rendere il profilo più professionale e visibile ai recruiter.",
+    "resources": ["https://www.linkedin.com"],
+    "tips": "Usa parole chiave tecniche e aggiorna la foto profilo."
   },
   {
     "id": 4,
     "title": "Contribuisci a un progetto open source",
     "description": "Trova un issue beginner-friendly e apri una PR.",
     "completed": false,
-    "progress": 0
+    "progress": 0,
+    "detail": "Cerca su GitHub con label 'good first issue'.",
+    "objective": "Imparare a collaborare e usare Git in contesto reale.",
+    "resources": ["https://github.com/search?q=label%3A%22good+first+issue%22"],
+    "tips": "Leggi bene le regole del repository prima di aprire una PR."
   },
   {
     "id": 5,
     "title": "Impara Zustand per la gestione dello stato",
     "description": "Crea un mini progetto con Zustand e React.",
     "completed": false,
-    "progress": 0
+    "progress": 0,
+    "detail": "Crea una todo list o un contatore con Zustand.",
+    "objective": "Capire come gestire lo stato in React senza Redux.",
+    "resources": ["https://docs.pmnd.rs/zustand"],
+    "tips": "Confronta Zustand con useContext e Redux per capirne i vantaggi."
   },
   {
     "id": 6,
@@ -40,7 +60,10 @@
     "description": "Scegli un argomento che conosci bene (es. React, TypeScript, Zustand) e scrivi un articolo completo con esempi, codice e riflessioni personali. L'obiettivo è condividere conoscenza e migliorare la tua comunicazione tecnica.",
     "completed": false,
     "progress": 0,
-    "detail": "Puoi usare dev.to o Medium. Inserisci anche il link nel tuo portfolio."
+    "detail": "Puoi usare dev.to o Medium. Inserisci anche il link nel tuo portfolio.",
+    "objective": "Condividere competenze e migliorare la comunicazione tecnica.",
+    "resources": ["https://medium.com", "https://dev.to"],
+    "tips": "Scrivi come se spiegassi a un collega junior. Usa esempi pratici."
   },
   {
     "id": 7,
@@ -48,7 +71,10 @@
     "description": "Progetta e sviluppa una pagina web che presenti chi sei, cosa fai, i tuoi progetti e i tuoi contatti. Usa uno stile coerente con il tuo brand personale e rendila responsive. Puoi usare Next.js o Vite.",
     "completed": false,
     "progress": 0,
-    "detail": "Inserisci link a GitHub, LinkedIn e portfolio. Puoi usare Netlify o Vercel per deploy."
+    "detail": "Inserisci link a GitHub, LinkedIn e portfolio. Puoi usare Netlify o Vercel per deploy.",
+    "objective": "Mostrare il tuo brand personale e facilitare contatti.",
+    "resources": ["https://vercel.com", "https://netlify.com"],
+    "tips": "Mantieni il design semplice e mobile-friendly. Usa colori coerenti."
   },
   {
     "id": 8,
@@ -56,7 +82,10 @@
     "description": "Dedica tempo alla lettura di uno dei capitoli del libro 'Clean Code' di Robert C. Martin. Prendi appunti su concetti chiave come naming, refactoring, test e responsabilità delle funzioni.",
     "completed": false,
     "progress": 0,
-    "detail": "Capitolo consigliato: 'Functions'. Puoi usare Notion per prendere appunti."
+    "detail": "Capitolo consigliato: 'Functions'. Puoi usare Notion per prendere appunti.",
+    "objective": "Migliorare la qualità del codice e la leggibilità.",
+    "resources": ["https://www.goodreads.com/book/show/3735293-clean-code"],
+    "tips": "Applica subito i concetti letti nel tuo codice."
   },
   {
     "id": 9,
@@ -64,7 +93,10 @@
     "description": "Sviluppa un componente UI che possa essere riutilizzato in più progetti. Ad esempio: una card, un modal, un tooltip o un sistema di notifica. Documenta bene le props e il comportamento.",
     "completed": false,
     "progress": 0,
-    "detail": "Salvalo in una libreria personale o in uno snippet condivisibile."
+    "detail": "Salvalo in una libreria personale o in uno snippet condivisibile.",
+    "objective": "Costruire una base solida per progetti futuri.",
+    "resources": ["https://storybook.js.org", "https://react.dev"],
+    "tips": "Documenta bene le props e usa TypeScript per tipizzare."
   },
   {
     "id": 10,
@@ -72,6 +104,9 @@
     "description": "Trova una live su Twitch o YouTube dove si sviluppa in tempo reale. Segui il flusso, prendi ispirazione e annota tecniche o strumenti che non conoscevi. Può essere anche una registrazione.",
     "completed": false,
     "progress": 0,
-    "detail": "Playlist consigliata: 'ThePrimeagen' su YouTube o 'Coding Garden' su Twitch."
+    "detail": "Playlist consigliata: 'ThePrimeagen' su YouTube o 'Coding Garden' su Twitch.",
+    "objective": "Scoprire nuovi approcci e strumenti reali.",
+    "resources": ["https://www.twitch.tv/theprimeagen", "https://www.youtube.com/c/CodingGarden"],
+    "tips": "Prendi nota di tool, shortcut e workflow usati dal creator."
   }
 ]

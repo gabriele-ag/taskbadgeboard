@@ -4,6 +4,10 @@ export type Task = {
     description: string,
     completed: boolean,
     progress?: number
+    detail?: string,
+    objective?: string,
+    resources?: string[]
+    tips?: string
 }
 
 export type Badge = {

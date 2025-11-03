@@ -1,44 +1,93 @@
 [
   {
     "id": 1,
-    "name": "First Goal",
+    "name": "Primo Goals",
     "description": "Hai aggiunto il tuo primo obiettivo!",
     "icon": "⭐",
     "unlocked": false
   },
   {
     "id": 2,
-    "name": "Three Goals",
+    "name": "Tre Goals",
     "description": "Hai completato almeno 3 obiettivi.",
     "icon": "🎯",
     "unlocked": false
   },
   {
     "id": 3,
-    "name": "Completionist",
+    "name": "Completista",
     "description": "Hai completato tutti gli obiettivi attivi.",
     "icon": "🏆",
     "unlocked": false
   },
   {
     "id": 4,
-    "name": "Streak Maintainer",
-    "description": "Hai completato almeno un obiettivo ogni giorno per 3 giorni consecutivi.",
+    "name": "Collaboratore Open Source",
+    "description": "Hai contribuito ad un progetto Open Sorce. Grazie del sostegno!",
     "icon": "🔥",
     "unlocked": false
   },
   {
     "id": 5,
-    "name": "Customizer",
-    "description": "Hai modificato un obiettivo esistente.",
+    "name": "Conoscitore",
+    "description": "Hai imparato una nuova tecnologia",
     "icon": "🛠️",
     "unlocked": false
   },
   {
     "id": 6,
-    "name": "Declutter Hero",
-    "description": "Hai almeno 5 obiettivi completati.",
+    "name": "Cinque Goals!",
+    "description": "Hai almeno 5 obiettivi completati. Continua così!",
     "icon": "🧹",
+    "unlocked": false
+  },
+  {
+    "id": 7,
+    "name": "Scrittore Tecnico",
+    "description": "Hai scritto un articolo tecnico su Medium",
+    "icon": "✍️",
+    "unlocked": false
+  },
+  {
+    "id": 8,
+    "name": "Creatore di Componenti",
+    "description": "Hai creato un componente riutilizzabile in React.",
+    "icon": "🧩",
+    "unlocked": false
+  },
+  {
+    "id": 9,
+    "name": "LinkedIn Hero",
+    "description": "Hai aggiornato il tuo profilo LinkedIn con nuove esperienze o progetti.",
+    "icon": "💼",
+    "unlocked": false
+  },
+  {
+    "id": 10,
+    "name": "Clean Coder",
+    "description": "Hai letto un capitolo di 'Clean Code' e applicato i concetti.",
+    "icon": "📖",
+    "unlocked": false
+  },
+  {
+    "id": 11,
+    "name": "Live Learner",
+    "description": "Hai partecipato a una live coding session o guardato una registrazione.",
+    "icon": "🎥",
+    "unlocked": false
+  },
+  {
+    "id": 12,
+    "name": "Zustand Explorer",
+    "description": "Hai completato un progetto usando Zustand per la gestione dello stato.",
+    "icon": "🌐",
+    "unlocked": false
+  },
+  {
+    "id": 13,
+    "name": "Coding Snack Lover",
+    "description": "Hai completato almeno 3 esercizi brevi di JavaScript o TypeScript.",
+    "icon": "🍪",
     "unlocked": false
   }
 ]

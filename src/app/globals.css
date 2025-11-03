@@ -20,6 +20,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(125deg, #272727, #111111)
 }
 
 
@@ -44,13 +45,24 @@ a {
 
 .navbar {
   max-width: 40%;
-  padding: 10px 10px;
+  padding: 30px 40px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   font-size: 16px;
   gap: 50px;
-  border: 1px solid black;
-  border-radius: 12px;
+  color: white;
+}
+
+.site-logo {
+  font-size: 35px;
+}
+
+/* Footer */
+
+footer {
+  padding: 10px 40px;
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {

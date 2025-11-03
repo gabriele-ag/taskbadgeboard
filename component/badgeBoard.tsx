@@ -17,7 +17,7 @@ export default function BadgeBoard({id, name, description, icon, unlocked}: Boar
 
             <div className={styles.content}>
                 <h4 className={styles.name}>{name}</h4>
-                <p className={styles.description}>{description}</p>
+                <p>{description}</p>
             </div>
 
         </div>
