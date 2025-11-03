@@ -1,0 +1,49 @@
+.goalsBox {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.statusBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+/* Pallino cliccabile */
+.statusDot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Stato completato */
+.completed {
+  background-color: #4ade80; /* verde */
+  box-shadow: 0 0 4px #4ade80;
+}
+
+/* Stato non completato */
+.incomplete {
+  background-color: #d1d5db; /* grigio */
+  box-shadow: 0 0 2px #999;
+}
+
+/* Titolo del goal */
+.goalTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+/* Descrizione del goal */
+.goalDescription {
+  font-size: 0.875rem;
+  color: #555;
+}

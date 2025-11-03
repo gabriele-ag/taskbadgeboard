@@ -3,19 +3,22 @@ import styles from "./CSS/goalsBoard.module.css"
 
 type GoalsBox = {
     title: string,
-    description: string,
-    completed: boolean
+    completed: boolean,
+    onToggle: () => void
 }
 
-export default function GoalsBoard({title, description, completed}: GoalsBox) {
+export default function GoalsBoard({title, completed, onToggle}: GoalsBox) {
     return (
-        <div>
-            <div className={styles.statusBox}>
-                <span className={`${styles.statusCompleted} ${completed ? 'V' : 'X'}`}></span>
+        <div className={styles.goalsBox}>
+            <div className={`${styles.statusBox}`}>
+                <button 
+                onClick={completed? undefined : onToggle}
+                className={`${styles.statusDot} ${completed ? styles.completed : styles.incomplete}`}
+                disabled={completed}>
+                </button>
             </div>
             <div>
                 <h4 className={styles.goalTitle}>{title}</h4>
-                <p className={styles.goalDescription}>{description}</p>
             </div>
         </div>
     )

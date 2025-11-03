@@ -31,7 +31,6 @@ export default function RootLayout({
           <div className="navbar">
             <Link href={"/"}>Home</Link>
             <Link href={"/dashboard"}>Dashboard</Link>
-            <Link href={"/badges"}>Badges</Link>
           </div>
         </header>
         {children}

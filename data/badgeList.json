@@ -15,36 +15,29 @@
   },
   {
     "id": 3,
-    "name": "Hard Worker",
-    "description": "Hai raggiunto almeno l'80% di progresso su un obiettivo.",
-    "icon": "💪",
-    "unlocked": false
-  },
-  {
-    "id": 4,
     "name": "Completionist",
     "description": "Hai completato tutti gli obiettivi attivi.",
     "icon": "🏆",
     "unlocked": false
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Streak Maintainer",
     "description": "Hai completato almeno un obiettivo ogni giorno per 3 giorni consecutivi.",
     "icon": "🔥",
     "unlocked": false
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Customizer",
     "description": "Hai modificato un obiettivo esistente.",
     "icon": "🛠️",
     "unlocked": false
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Declutter Hero",
-    "description": "Hai eliminato almeno 5 obiettivi completati.",
+    "description": "Hai almeno 5 obiettivi completati.",
     "icon": "🧹",
     "unlocked": false
   }

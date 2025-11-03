@@ -5,3 +5,11 @@ export type Task = {
     completed: boolean,
     progress?: number
 }
+
+export type Badge = {
+    id: number,
+    name: string,
+    description: string,
+    icon: string,
+    unlocked: boolean
+}

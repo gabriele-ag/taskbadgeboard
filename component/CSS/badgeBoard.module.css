@@ -1,0 +1,39 @@
+.badgeCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.unlocked {
+  border-color: #4ade80;
+  opacity: 1;
+}
+
+.locked {
+  opacity: 0.2;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #555;
+}

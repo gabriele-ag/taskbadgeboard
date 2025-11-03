@@ -33,5 +33,45 @@
     "description": "Crea un mini progetto con Zustand e React.",
     "completed": false,
     "progress": 0
+  },
+  {
+    "id": 6,
+    "title": "Scrivi un articolo tecnico su Medium",
+    "description": "Scegli un argomento che conosci bene (es. React, TypeScript, Zustand) e scrivi un articolo completo con esempi, codice e riflessioni personali. L'obiettivo è condividere conoscenza e migliorare la tua comunicazione tecnica.",
+    "completed": false,
+    "progress": 0,
+    "detail": "Puoi usare dev.to o Medium. Inserisci anche il link nel tuo portfolio."
+  },
+  {
+    "id": 7,
+    "title": "Crea una landing page personale",
+    "description": "Progetta e sviluppa una pagina web che presenti chi sei, cosa fai, i tuoi progetti e i tuoi contatti. Usa uno stile coerente con il tuo brand personale e rendila responsive. Puoi usare Next.js o Vite.",
+    "completed": false,
+    "progress": 0,
+    "detail": "Inserisci link a GitHub, LinkedIn e portfolio. Puoi usare Netlify o Vercel per deploy."
+  },
+  {
+    "id": 8,
+    "title": "Leggi un capitolo di 'Clean Code'",
+    "description": "Dedica tempo alla lettura di uno dei capitoli del libro 'Clean Code' di Robert C. Martin. Prendi appunti su concetti chiave come naming, refactoring, test e responsabilità delle funzioni.",
+    "completed": false,
+    "progress": 0,
+    "detail": "Capitolo consigliato: 'Functions'. Puoi usare Notion per prendere appunti."
+  },
+  {
+    "id": 9,
+    "title": "Crea un componente riutilizzabile in React",
+    "description": "Sviluppa un componente UI che possa essere riutilizzato in più progetti. Ad esempio: una card, un modal, un tooltip o un sistema di notifica. Documenta bene le props e il comportamento.",
+    "completed": false,
+    "progress": 0,
+    "detail": "Salvalo in una libreria personale o in uno snippet condivisibile."
+  },
+  {
+    "id": 10,
+    "title": "Partecipa a una live coding session",
+    "description": "Trova una live su Twitch o YouTube dove si sviluppa in tempo reale. Segui il flusso, prendi ispirazione e annota tecniche o strumenti che non conoscevi. Può essere anche una registrazione.",
+    "completed": false,
+    "progress": 0,
+    "detail": "Playlist consigliata: 'ThePrimeagen' su YouTube o 'Coding Garden' su Twitch."
   }
 ]

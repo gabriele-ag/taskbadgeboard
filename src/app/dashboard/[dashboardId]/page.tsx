@@ -1,0 +1,1 @@
+export default async function DashboardDetail({params}: {params: Promise<{}>})
