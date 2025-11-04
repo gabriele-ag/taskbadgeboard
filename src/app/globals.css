@@ -12,6 +12,7 @@
 
 html,
 body {
+  height: 100%;
   max-width: 100vw;
   overflow-x: hidden;
 }
@@ -51,7 +52,7 @@ a {
   align-items: center;
   font-size: 16px;
   gap: 50px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .site-logo {
@@ -61,12 +62,74 @@ a {
 /* Footer */
 
 footer {
+  margin-top: 300px;
   padding: 10px 40px;
-  color: white;
+  color: rgb(255, 255, 255);
+}
+
+
+/* Not-Found */
+
+.notFoundTitle {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.notFoundTitle2 {
+  margin-top: 20px;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.notFoundBox {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notFoundButtonBox {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.backButton {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.backButton:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 114, 23);
+}
+
+.backButtonToHome {
+    background-color: rgb(247, 192, 14);
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.backButtonToHome:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 114, 23);
 }
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: white;
+    color-scheme: rgb(255, 255, 255);
   }
 }

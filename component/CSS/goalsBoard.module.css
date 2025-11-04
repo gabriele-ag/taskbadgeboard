@@ -31,6 +31,11 @@
 /* Titolo del goal */
 .goalTitle {
   font-size: 19px;
+  transition: color 0.2s ease;
+}
+
+.goalTitle:hover {
+  color: rgb(252, 114, 23);
 }
 
 /* Descrizione del goal */

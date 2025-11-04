@@ -46,15 +46,18 @@ export default function Dashboard() {
         <section className={styles.sectionTaskBadge}>
 
             {task.length === 0 ? (
-                <p className={styles.loading}>Caricamento...</p>
-            ): (
+                <div className={styles.loadingBox}>
+                    <p className={styles.loading}>Caricamento...</p>
+                </div>
+            ) : (
             <div className={styles.container}>
 
                     {/* Goals */}
                     
-                    <p className={styles.mgBot30}>* Clicca sulle task per saperne i dettagli</p>
+                    
                     <div className={styles.flexGoalsBoard}>
-                        <div className={styles.boxGoalsBoard}>                            
+                        <div className={styles.boxGoalsBoard}>
+                                                       
                             <h2 className={styles.mgBot30}>Task</h2>                           
                             {task.map((curTask) => (
                             <GoalsBoard
@@ -66,7 +69,7 @@ export default function Dashboard() {
                             />
 
                             ))}
-                            
+                            <p className={styles.adviceOnTask}>* Clicca sulle task per saperne i dettagli</p>
                         </div>
                         
                         {/* Badge */}

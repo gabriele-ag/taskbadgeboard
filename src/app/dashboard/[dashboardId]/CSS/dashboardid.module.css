@@ -14,7 +14,7 @@
 }
 
 .boxDetail {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .detailTitle {
@@ -35,15 +35,22 @@
 
 .urlLink {
     text-decoration: underline;
+    transition: color 0.2s ease;
 }
 
 .urlLink:hover {
-    color: aquamarine;
+    color: rgb(252, 114, 23);
 }
 
 .backButton {
-    background-color: aliceblue;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 10px;
     border-radius: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.backButton:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 114, 23);
 }

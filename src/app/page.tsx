@@ -1,10 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./home.module.css";
 
 export default function Home() {
   return (
     <>
-    <h1>Ciao sono la pagina Home</h1>
+    <div className={styles.homeBox}>
+      <h1 className={styles.homeTitle}>Task Badge Board</h1>
+      <p className={styles.homeP}>Sblocca gli obiettivi, completando le task!</p>
+    </div>
     </>
   )
 }

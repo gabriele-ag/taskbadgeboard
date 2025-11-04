@@ -1,6 +1,5 @@
 .sectionTaskBadge {
     padding-top: 35px;
-    padding-bottom: 35px;
 }
 
 .titleDashboard {
@@ -17,16 +16,32 @@
 .flexGoalsBoard {
     display: flex;
     align-items: baseline;
+    justify-content: center;
     gap: 50px;
 }
 
 .boxGoalsBoard {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 25px;
-    margin-bottom: 50px;
 }
 
 .mgBot30 {
     margin-bottom: 30px;
+}
+
+.adviceOnTask {
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.loadingBox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 350px;
+}
+
+.loading {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
